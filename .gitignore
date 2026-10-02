@@ -1,0 +1,31 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+PAK_CONSTITUTION.ipynb
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# AI/local tool configuration
+.agents/
+.claude/
+
+# Generated vector database
+data/vector_store/
+
+# Source PDF
+data/pdfs/
+
+# Generated evaluation output
+evaluation/results.json

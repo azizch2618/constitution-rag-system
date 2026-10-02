@@ -1,0 +1,40 @@
+[
+    {
+        "question": "What is Article 25?",
+        "expected_retrieval_type": "article",
+        "expected_article": "25"
+    },
+    {
+        "question": "What does Article 25 say about equality?",
+        "expected_retrieval_type": "article",
+        "expected_article": "25"
+    },
+    {
+        "question": "What is Article 25A?",
+        "expected_retrieval_type": "article",
+        "expected_article": "25A"
+    },
+    {
+        "question": "What does Article 26 say about discrimination?",
+        "expected_retrieval_type": "article",
+        "expected_article": "26"
+    },
+    {
+        "question": "What does the Constitution say about freedom of speech?",
+        "expected_retrieval_type": "semantic",
+        "expected_keywords": [
+            "freedom of speech",
+            "freedom of expression",
+            "freedom of the press"
+        ]
+    },
+    {
+        "question": "What protections are provided to women and children?",
+        "expected_retrieval_type": "semantic",
+        "expected_keywords": [
+            "women",
+            "children",
+            "protection"
+        ]
+    }
+]
