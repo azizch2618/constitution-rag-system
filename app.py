@@ -8,9 +8,8 @@ from src.hybrid_retriever import HybridRetriever
 from src.rag import RAGPipeline
 
 
-# ============================================================
 # PAGE CONFIGURATION
-# ============================================================
+
 
 st.set_page_config(
     page_title="Pakistan Constitution Agent",
@@ -19,9 +18,9 @@ st.set_page_config(
 )
 
 
-# ============================================================
+
 # HEADER
-# ============================================================
+
 
 st.title("🇵🇰 Pakistan Constitution")
 
@@ -30,9 +29,8 @@ st.caption(
 )
 
 
-# ============================================================
 # SIDEBAR
-# ============================================================
+
 
 with st.sidebar:
 
